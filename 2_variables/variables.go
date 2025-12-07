@@ -1,6 +1,7 @@
 package main
 
 import "fmt"
+
 func main(){
 	var name string = "golang"
 
@@ -11,10 +12,14 @@ func main(){
 
 	var age int = 55
 
+	var price float32 = 50.5
+
 	fmt.Println(name)
 	fmt.Println(name_infer)
 
 	fmt.Println(name_two)
 
 	fmt.Println(age)
+
+	fmt.Println(price)
 }
